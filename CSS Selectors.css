@@ -1,0 +1,63 @@
+/* Universal Selector */
+* {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Element Selectors */
+body {
+  padding: 40px;
+  text-align: center;
+}
+h1 {
+  color: #1a237e;
+  margin-bottom: 10px;
+}
+h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+hr {
+  margin: 20px auto;
+  width: 80%;
+  border: 1px solid #ccc;
+}
+/* Ordered List */
+ol {
+  list-style-position: inside;
+  margin-top: 20px;
+  padding-left: 0;
+}
+/* List Items */
+ol li {
+  text-align: left;
+  padding: 10px 20px;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 60%;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+/* Class Selector Example */
+li.class-example {
+  color: teal;
+  font-weight: bold;
+}
+/* ID Selector Example */
+li#id-example {
+  color: crimson;
+  font-style: italic;
+}
+/* Attribute Selector Example */
+li[value="4"] {
+  background-color: #e8f0fe;
+  border-left: 5px solid #007acc;
+}
+/* Hover effect for any list item */
+li:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
